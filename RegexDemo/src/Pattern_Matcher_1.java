@@ -44,3 +44,5 @@ public class Pattern_Matcher_1
 
     }
 }
+
+.*(.).*\\1.*
