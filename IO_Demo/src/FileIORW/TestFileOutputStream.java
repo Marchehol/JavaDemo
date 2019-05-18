@@ -1,4 +1,4 @@
-package FileIORWTest;
+package FileIORW;
 
 import java.io.*;
 
@@ -8,7 +8,7 @@ public class TestFileOutputStream {
         FileInputStream in;
         FileOutputStream out;
         try {
-            in = new FileInputStream("src/FileIORWTest/TestFileOutputStream.java");
+            in = new FileInputStream("src/FileIORW/TestFileOutputStream.java");
             out = new FileOutputStream("txt/copy.txt");
             // 指明要写入数据的文件，如果指定的路径中不存在copy.txt这样的文件，则系统会自动创建一个
             while ((b = in.read()) != -1) {

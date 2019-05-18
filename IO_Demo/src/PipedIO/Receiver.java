@@ -1,4 +1,4 @@
-package PipedIOTest;
+package PipedIO;
 
 import java.io.IOException;
    

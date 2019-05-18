@@ -1,14 +1,13 @@
-package ByteArrayIOTest;
+package ByteArrayIO;
 
 import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 
 /**
  * ByteArrayInputStream 测试程序
  *
  * @author skywang
  */
-public class ByteArrayInputStreamTest {
+public class TestByteArrayInputStream {
 
     private static final int LEN = 5;
     // 对应英文字母“abcddefghijklmnopqrsttuvwxyz”

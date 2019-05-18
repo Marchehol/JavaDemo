@@ -1,16 +1,14 @@
-package ByteArrayIOTest;
+package ByteArrayIO;
 
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.ByteArrayInputStream;
 
 /**
  * ByteArrayOutputStream 测试程序
  *
  * @author skywang
  */
-public class ByteArrayOutputStreamTest {
+public class TestByteArrayOutputStream {
 
     private static final int LEN = 5;
     // 对应英文字母“abcddefghijklmnopqrsttuvwxyz”

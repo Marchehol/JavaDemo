@@ -1,4 +1,4 @@
-package FileIORWTest;
+package FileIORW;
 
 import java.io.*;
 
@@ -13,8 +13,8 @@ public class TestFileInputStream {
         // FileReader in = null;//使用FileReader流来读取内容时，中英文都可以正确显示，因为Reader流里面的
         // read()方法是一个字符一个字符地读取的，这样每次读取出来的都是一个完整的汉字，这样就可以正确显示了。
         try {
-            fin = new FileInputStream("src/FileIORWTest/TestFileInputStream.java");
-            //fr = new FileReader("src/demo1/TestFileInputStream.java");
+            fin = new FileInputStream("src/FileIORW/TestFileInputStream.java");
+            //fr = new FileReader("src/Test/TestFileInputStream.java");
         } catch (FileNotFoundException e) {
             System.out.println("系统找不到指定文件！");
             System.exit(-1);// 系统非正常退出

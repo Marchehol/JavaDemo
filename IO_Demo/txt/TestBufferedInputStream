@@ -1,4 +1,4 @@
-package demo1;
+package BufferedIORW;
 
 import java.io.*;
 
@@ -7,7 +7,7 @@ public class TestBufferedInputStream {
         FileInputStream fis;
         FileOutputStream fos;
         try {
-            fis = new FileInputStream("src/demo1/TestBufferedInputStream.java");
+            fis = new FileInputStream("src/BufferedIORW/TestBufferedInputStream.java");
             // 在FileInputStream节点流的外面套接一层处理流BufferedInputStream
             BufferedInputStream bis = new BufferedInputStream(fis);
 

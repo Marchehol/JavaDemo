@@ -1,23 +1,23 @@
-package PipedIOTest;
+package PipedRW;
 
-import java.io.PipedInputStream;
-import java.io.PipedOutputStream;
+import java.io.PipedReader;
+import java.io.PipedWriter;
 import java.io.IOException;
 
 @SuppressWarnings("all")   
 /**  
  * 管道输入流和管道输出流的交互程序
  */   
-public class PipedStreamTest {   
+public class PipeRWTest {
    
     public static void main(String[] args) {   
         Sender t1 = new Sender();   
            
         Receiver t2 = new Receiver();   
            
-        PipedOutputStream out = t1.getOutputStream();   
+        PipedWriter out = t1.getWriter();   
  
-        PipedInputStream in = t2.getInputStream();   
+        PipedReader in = t2.getReader();   
 
         try {   
             //管道连接。下面2句话的本质是一样。

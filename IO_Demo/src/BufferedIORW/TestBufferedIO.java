@@ -1,17 +1,17 @@
-package BufferedIORWTest;
+package BufferedIORW;
 
 import java.io.*;
 
-public class TestBufferedInputStream {
+public class TestBufferedIO {
     public static void main(String args[]) {
         FileInputStream fis;
         FileOutputStream fos;
         try {
-            fis = new FileInputStream("src/BufferedIORWTest/TestBufferedInputStream.java");
+            fis = new FileInputStream("src/BufferedIORW/TestBufferedIO.java");
             // 在FileInputStream节点流的外面套接一层处理流BufferedInputStream
             BufferedInputStream bis = new BufferedInputStream(fis);
 
-            fos = new FileOutputStream("txt/TestBufferedInputStream");
+            fos = new FileOutputStream("txt/TestBufferedIO");
             BufferedOutputStream bos = new BufferedOutputStream(fos);
 
             int b;
@@ -20,7 +20,7 @@ public class TestBufferedInputStream {
             }
             bos.flush();
 
-            fis = new FileInputStream("txt/TestBufferedInputStream");
+            fis = new FileInputStream("txt/TestBufferedIO");
             bis = new BufferedInputStream(fis);
             int c;
             System.out.println((char) bis.read());

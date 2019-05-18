@@ -1,4 +1,4 @@
-package FileIORWTest;
+package FileIORW;
 
 /*使用FileWriter（字符流）向指定文件中写入数据
 写入数据时以1个字符为单位进行写入*/

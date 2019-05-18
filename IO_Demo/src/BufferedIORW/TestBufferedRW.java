@@ -1,7 +1,7 @@
-package BufferedIORWTest;
+package BufferedIORW;
 
 import java.io.*;
-public class TestBufferedReader {
+public class TestBufferedRW {
     public static void main(String args[]){
         try{
             BufferedWriter bw = new BufferedWriter(new FileWriter("txt/dat.txt"));

@@ -1,4 +1,4 @@
-package PipedRWTest;
+package PipedRW;
 
 import java.io.IOException;
    
