@@ -1,12 +1,7 @@
-package RandomAccessFileTest;
+package RandomAccessFile;
 
 import java.io.File;
-import java.io.FileDescriptor;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.PrintStream;;
+;
 import java.io.RandomAccessFile;
 import java.io.IOException;
 

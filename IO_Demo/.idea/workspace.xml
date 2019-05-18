@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b3ded0-bd5e-470a-b56e-88d3715d7f1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/RandomAccessFile/RandomAccessRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RandomAccessFile/RandomAccessWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RandomAccessFileTest/RandomAccessFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomAccessFile/RandomAccessFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/file.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,15 +119,16 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="38" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="JAVA" value="48" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -138,11 +144,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PrintStreamTest/Test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RandomAccessFile/RandomAccessFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-104">
+              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RandomAccessFile/RandomAccessRead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RandomAccessFile/RandomAccessWrite.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/io/RandomAccessFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11039">
+              <caret line="253" column="31" selection-start-line="253" selection-start-column="17" selection-end-line="253" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -150,15 +179,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/txt/file.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrintStreamTest/PrintStreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="74" column="24" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="62" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -177,8 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TestFileInputStream.java" />
-        <option value="$PROJECT_DIR$/src/cn/mch/test/TestFileInputStream.java" />
         <option value="$PROJECT_DIR$/src/demo1/TestFileInputStream.java" />
         <option value="$PROJECT_DIR$/src/demo1/TestFileWriter.java" />
         <option value="$PROJECT_DIR$/src/demo1/TestTransform2.java" />
@@ -227,6 +245,9 @@
         <option value="$PROJECT_DIR$/src/PipedRW/PipeRWTest.java" />
         <option value="$PROJECT_DIR$/src/PrintStreamTest/PrintStreamTest.java" />
         <option value="$PROJECT_DIR$/src/PrintStreamTest/Test.java" />
+        <option value="$PROJECT_DIR$/src/RandomAccessFileTest/RandomAccessRead.java" />
+        <option value="$PROJECT_DIR$/src/RandomAccessFile/RandomAccessRead.java" />
+        <option value="$PROJECT_DIR$/src/RandomAccessFile/RandomAccessWrite.java" />
       </list>
     </option>
   </component>
@@ -237,8 +258,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="730" />
-    <option name="y" value="12" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -249,6 +270,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,35 +287,41 @@
               <item name="IO_Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="IO_Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PrintStreamTest" type="462c0819:PsiDirectoryNode" />
+              <item name="RandomAccessFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IO_Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IO_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="txt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558166375498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558176898667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEA 2018.2.3\GoodDemo" />
-      <recent name="D:\IDEA 2018.2.3\Project\IO_test\txt" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaDemo\IO_Demo\txt" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RandomAccessFile" />
+      <recent name="RandomAccessFileTest" />
       <recent name="PrintStreamTest" />
       <recent name="BufferedIORW" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaDemo\IO_Demo\txt" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA 2018.2.3\GoodDemo" />
+      <recent name="D:\IDEA 2018.2.3\Project\IO_test\txt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.RandomAccessFileTest">
     <configuration name="PipedIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PipedIO.PipedIOTest" />
       <module name="IO_Demo" />
@@ -335,6 +363,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomAccessFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomAccessFile.RandomAccessFileTest" />
+      <module name="IO_Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RandomAccessFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrintStreamTest.Test" />
       <module name="IO_Demo" />
@@ -354,19 +395,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BufferedIORW.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestByteArrayInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ByteArrayIO.TestByteArrayInputStream" />
-      <module name="IO_Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ByteArrayIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,19 +450,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestByteArrayInputStream" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.PipedIOTest" />
       <item itemvalue="Application.PrintStreamTest" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.RandomAccessFileTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomAccessFileTest" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.PrintStreamTest" />
         <item itemvalue="Application.PipedIOTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestByteArrayInputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +484,8 @@
       <workItem from="1541910660975" duration="3930000" />
       <workItem from="1557325431058" duration="1882000" />
       <workItem from="1558076135356" duration="9405000" />
-      <workItem from="1558154587068" duration="5381000" />
+      <workItem from="1558154587068" duration="7829000" />
+      <workItem from="1558173232720" duration="2187000" />
     </task>
     <task id="LOCAL-00001" summary="update IO_Demo">
       <created>1558166031421</created>
@@ -465,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558166031421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update IO_Demo">
+      <created>1558166432923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558166432923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46966000" />
+    <option name="totallyTimeSpent" value="51601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +519,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4958949" visible="true" weight="0.19288956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4958949" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" sideWeight="0.5041051" side_tool="true" weight="0.20499243" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -492,7 +528,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5041051" side_tool="true" weight="0.20499243" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.25409836" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.33442622" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,15 +561,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update IO_Demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/txt/char.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/IO_Demo/demo1/TestBufferedInputStream.class" />
-    <entry file="file://$PROJECT_DIR$/out/production/IO_Demo/demo1/ByteArrayInputStreamTest.class" />
     <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -545,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RandomAccessFileTest/RandomAccessFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -663,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BufferedIORW/TestBufferedIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BufferedIORW/TestBufferedRW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -719,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PipedIO/PipedIOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PipedIO/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -733,34 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PipedRW/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PipedRW/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PipedRW/PipeRWTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PipedIO/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,13 +755,6 @@
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BufferedIORW/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -835,15 +810,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/IO_Demo/PrintStreamTest/Test.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <folding>
-            <element signature="e#0#754#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-98" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/txt/test.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintStreamTest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PipedIO/PipedIOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BufferedIORW/TestBufferedIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PipedRW/PipeRWTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PipedRW/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PipedRW/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BufferedIORW/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintStreamTest/PrintStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,12 +875,29 @@
     <entry file="file://$PROJECT_DIR$/txt/file.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrintStreamTest/Test.java">
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/io/RandomAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-11039">
+          <caret line="253" column="31" selection-start-line="253" selection-start-column="17" selection-end-line="253" selection-end-column="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomAccessFile/RandomAccessFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomAccessFile/RandomAccessRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomAccessFile/RandomAccessWrite.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
