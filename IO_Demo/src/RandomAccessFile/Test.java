@@ -29,6 +29,8 @@ public class Test {
         len = raf.length();
         raf.writeBoolean(true);
 
+        raf.writeDouble(3.14);
+
         raf.seek(0);
 
         byte b1[] = new byte[1024];
@@ -37,6 +39,8 @@ public class Test {
         raf.seek(len-1);
         boolean boo = raf.readBoolean();
         System.out.println(boo);
+        double dou = raf.readDouble();
+        System.out.println(dou);
 
     }
 }

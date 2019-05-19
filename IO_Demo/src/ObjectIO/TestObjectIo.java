@@ -1,4 +1,4 @@
-package ObjectIOTest;
+package ObjectIO;
 
 import java.io.*;
 
@@ -8,14 +8,14 @@ public class TestObjectIo {
         t.k = 8;// 把k的值修改为8
         try {
             FileOutputStream fos = new FileOutputStream(
-                    "src/ObjectIOTest/TestObjectIo.txt");
+                    "src/ObjectIO/TestObjectIo.txt");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             // ObjectOutputStream流专门用来处理Object的，在fos流的外面套接ObjectOutputStream流就可以直接把一个Object写进去
             oos.writeObject(t);// 直接把一个t对象写入到指定的文件里面
             oos.flush();
             oos.close();
             FileInputStream fis = new FileInputStream(
-                    "src/ObjectIOTest/TestObjectIo.txt");
+                    "src/ObjectIO/TestObjectIo.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
             // ObjectInputStream专门用来读一个Object的
             T tRead = (T) ois.readObject();

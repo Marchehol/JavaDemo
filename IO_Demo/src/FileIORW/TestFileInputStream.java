@@ -22,15 +22,23 @@ public class TestFileInputStream {
 
         long num = 0;// 使用变量num来记录读取到的字符数
         try {// 调用read()方法时会抛异常，所以需要捕获异常
-            while ((b = fin.read()) != -1) {
-                // 调用int read() throws Exception方法时，返回的是一个int类型的整数
-                // 循环结束的条件就是返回一个值-1，表示此时已经读取到文件的末尾了。
-                // System.out.print(b+"\t");//如果没有使用“(char)b”进行转换，
-                // 那么直接打印出来的b就是数字，而不是英文和中文了
-                System.out.print((char) b);
-                // “char(b)”把使用数字表示的汉字和英文字母转换成字符输入
-                num++;
+//            while ((b = fin.read()) != -1) {
+//                // 调用int read() throws Exception方法时，返回的是一个int类型的整数
+//                // 循环结束的条件就是返回一个值-1，表示此时已经读取到文件的末尾了。
+//                // System.out.print(b+"\t");//如果没有使用“(char)b”进行转换，
+//                // 那么直接打印出来的b就是数字，而不是英文和中文了
+//                System.out.print((char) b);
+//                // “char(b)”把使用数字表示的汉字和英文字母转换成字符输入
+//                num++;
+//            }
+
+
+            byte bt[] = new byte[1024];
+            int len;
+            while((len = fin.read(bt)) != -1){
+                System.out.println(new String(bt, 0, len));
             }
+
 
             fin.close();// 关闭输入流
             //fr.close();

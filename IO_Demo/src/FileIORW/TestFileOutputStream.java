@@ -11,9 +11,16 @@ public class TestFileOutputStream {
             in = new FileInputStream("src/FileIORW/TestFileOutputStream.java");
             out = new FileOutputStream("txt/copy.txt");
             // 指明要写入数据的文件，如果指定的路径中不存在copy.txt这样的文件，则系统会自动创建一个
-            while ((b = in.read()) != -1) {
-                out.write(b);
-                // 调用write(int c)方法把读取到的字符全部写入到指定文件中去
+
+//            while ((b = in.read()) != -1) {
+//                out.write(b);
+//                // 调用write(int c)方法把读取到的字符全部写入到指定文件中去
+//            }
+
+            byte bt[] = new byte[1024];
+            int len;
+            while((len = in.read(bt)) != -1){
+                out.write(bt, 0, len);
             }
 
             in.close();
@@ -25,7 +32,6 @@ public class TestFileOutputStream {
             System.out.println("文件复制失败！");
             System.exit(-1);
         }
-        System.out
-                .println("TestFileOutputStream.java文件里面的内容已经成功复制到文件copy.txt里面");
+        System.out.println("TestFileOutputStream.java文件里面的内容已经成功复制到文件copy.txt里面");
     }
 }

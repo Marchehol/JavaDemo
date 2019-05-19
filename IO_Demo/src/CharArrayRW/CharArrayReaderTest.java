@@ -1,4 +1,4 @@
-package CharArrayRWTest; /**
+package CharArrayRW; /**
  * CharArrayReader 演示程序
  *
  * @author skywang

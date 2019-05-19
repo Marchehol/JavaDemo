@@ -1,4 +1,4 @@
-package FileDescriptorTest;
+package FileDescriptor;
 
 import java.io.PrintStream;
 import java.io.FileDescriptor;

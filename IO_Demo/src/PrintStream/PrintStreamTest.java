@@ -1,4 +1,4 @@
-package PrintStreamTest;
+package PrintStream;
 
 import java.io.PrintStream;
 import java.io.File;

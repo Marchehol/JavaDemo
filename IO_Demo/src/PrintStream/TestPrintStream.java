@@ -1,4 +1,4 @@
-package PrintStreamTest;
+package PrintStream;
 
 /*这个小程序是重新设置打印输出的窗口，
  * 把默认在命令行窗口输出打印内容设置成其他指定的打印显示窗口

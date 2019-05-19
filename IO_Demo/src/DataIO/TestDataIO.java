@@ -1,7 +1,7 @@
-package DataIOTest;
+package DataIO;
 
 import java.io.*;
-public class TestDataInputStream {
+public class TestDataIO {
     public static void main(String args[]){
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         //在调用构造方法时，首先会在内存里面创建一个ByteArray字节数组

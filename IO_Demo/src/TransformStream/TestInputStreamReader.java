@@ -1,4 +1,4 @@
-package TransformStreamTest;
+package TransformStream;
 
 import java.io.*;
 public class TestInputStreamReader {
